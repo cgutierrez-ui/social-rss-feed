@@ -25,8 +25,15 @@ def build_instagram_feed_url(username: str, base_url: str | None = None ) -> str
 def validate_feed(feed_url: str) -> tuple[bool, str]:
 	import feedparser
 
+	browser_ua = (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    )
+
+
+
 	try:
-		parsed = feedparser.parse(feed_url)
+		parsed = feedparser.parse(feed_url, agent=browser_ua)
 	except Exception as e:
 		return False, f"couldn't fetch: {e}"
 
