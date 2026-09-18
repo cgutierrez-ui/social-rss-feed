@@ -1,1 +1,1 @@
-# Intagram RSS URL Generator
+# Instagram RSS URL Generator
