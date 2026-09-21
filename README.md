@@ -11,6 +11,7 @@ A Python script that creates custom RSS feed URLs from Instagram account handles
 
 ### Installation
 Clone this project & use the Command Line/Terminal to run:
+
 ```
 python3 install -r requirements.txt 
 ```
