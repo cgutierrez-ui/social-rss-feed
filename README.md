@@ -39,5 +39,5 @@ python3 feed_rss.py easystreetrecords
 
 Example URL produced:
 ```
-https://rss-bridge.org/bridge01/?action=display&bridge=Instagram&context=Username&u=easystreetrecords&format=Atom
+https://rssbridge.niwrc.net/?action=display&bridge=Instagram&context=Username&u=easystreetrecords&format=Atom
 ```
